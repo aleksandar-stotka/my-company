@@ -4,20 +4,15 @@ import { useState } from "react";
 import AddressForm from "./AddressForm";
 import PaymentForm from "./PaymentForm";
 import { commerce } from "../../../lib/commerce";
-import { useGlobalContext } from "../../../context";
 
 import {
-  CssBaseline,
   Paper,
   Stepper,
   Step,
   StepLabel,
   Typography,
-  CircularProgress,
-  Divider,
-  Button,
+
 } from "@material-ui/core";
-import { Link, useHistory } from "react-router-dom";
 
 import useStyles from "./styles";
 

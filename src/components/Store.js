@@ -5,7 +5,6 @@ import "./Store.scss";
 
 const Company = () => {
   const { closeSubmenu } = useGlobalContext();
-  const { id } = useParams();
   return (
     <div className="section" onMouseOver={closeSubmenu}>
       company

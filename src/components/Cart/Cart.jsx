@@ -4,11 +4,9 @@ import {
   Typography,
   Button,
   Grid,
-  CardActionArea,
 } from "@material-ui/core";
 import useStyles from "./styles";
 import CartItem from "./CartItem/CartItem";
-import { Link } from "react-router-dom";
 import Checkout from "../CeckoutForm/checkout/Checkout";
 import { useState } from "react";
 

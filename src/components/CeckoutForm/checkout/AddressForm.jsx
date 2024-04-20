@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import {
   InputLabel,
   Select,
@@ -11,10 +10,8 @@ import {
   TextField
 } from "@material-ui/core";
 import { useForm, FormProvider } from "react-hook-form";
-import FormInput from "./CustomTextField";
 
 import { commerce } from "../../../lib/commerce";
-import { ContactlessOutlined } from "@material-ui/icons";
 
 const AddressForm = ({ checkoutToken, next ,hideCheck}) => {
  const [shippingCountries, setShippingContries ] =useState([])

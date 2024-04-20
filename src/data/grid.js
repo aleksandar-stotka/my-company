@@ -4,7 +4,6 @@ import {
   FaAutoprefixer,
   FaSpaceShuttle,
   FaRocket,
-  FaBolt,
 } from "react-icons/fa";
 
 const grid = [
