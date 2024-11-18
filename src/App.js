@@ -14,8 +14,7 @@ import PageLogin from "./page/PageLogin";
 import MavicSeries from "./components/series/mavic/MavicSeries";
 import StoreList from "./page/storeList/StoreList";
 import { useGlobalContext } from "./context";
-import Cart from "./components/Cart/Cart";
-import Checkout from "./components/CeckoutForm/checkout/Checkout";
+
 import AirSeries from "./components/series/AirSeries";
 import MiniSeries from "./components/series/mavic/MiniSeries";
 import Footer from "./components/footer/Footer";
@@ -26,7 +25,6 @@ function App() {
   const { user } = useAuthContext();
   const [showNavbar, setShowNavbar] = useState(null);
 
-  const { cart } = useGlobalContext();
 
   useEffect(() => {}, []);
   return (
